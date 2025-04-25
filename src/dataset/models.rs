@@ -21,10 +21,3 @@ impl Model for Vector {
 impl Model for GNM {
         const FLAG: GdalOpenFlags = GdalOpenFlags::GDAL_OF_GNM;
 }
-
-pub enum Models {
-        Raster,
-        MultiDimRaster,
-        Vector,
-        GNM,
-}
